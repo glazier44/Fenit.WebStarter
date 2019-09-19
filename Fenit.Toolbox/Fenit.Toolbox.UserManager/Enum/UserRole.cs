@@ -8,6 +8,6 @@ namespace Fenit.Toolbox.UserManager.Enum
     {
         [Description("Root")] Root = 100,
         [Description("Admin")] Admin = 200,
-        [Description("Użytkownik")] User = 500,
+        [Description("Użytkownik")] User = 500
     }
 }

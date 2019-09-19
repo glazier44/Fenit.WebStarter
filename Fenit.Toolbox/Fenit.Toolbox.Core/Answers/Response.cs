@@ -19,6 +19,7 @@
             InfoType = "danger";
             IsError = true;
         }
+
         public void AddWarning(string message)
         {
             Message = message;

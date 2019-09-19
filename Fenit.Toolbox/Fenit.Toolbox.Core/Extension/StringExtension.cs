@@ -116,6 +116,7 @@ namespace Fenit.Toolbox.Core.Extension
             {
                 res.AddError(e.Message);
             }
+
             return res;
         }
 

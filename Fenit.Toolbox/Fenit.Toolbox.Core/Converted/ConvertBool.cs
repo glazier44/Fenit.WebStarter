@@ -1,5 +1,4 @@
-﻿
-namespace Fenit.Toolbox.Core.Converted
+﻿namespace Fenit.Toolbox.Core.Converted
 {
     public static class ConvertBool
     {
@@ -14,4 +13,3 @@ namespace Fenit.Toolbox.Core.Converted
         }
     }
 }
-

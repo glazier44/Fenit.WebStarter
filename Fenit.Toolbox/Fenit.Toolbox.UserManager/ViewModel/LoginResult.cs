@@ -1,6 +1,4 @@
-﻿
-
-using Fenit.Toolbox.Core.Answers;
+﻿using Fenit.Toolbox.Core.Answers;
 using Fenit.Toolbox.UserManager.Enum;
 
 namespace Fenit.Toolbox.UserManager.ViewModel
@@ -23,6 +21,7 @@ namespace Fenit.Toolbox.UserManager.ViewModel
                         IsError = true;
                         break;
                     }
+
                     case SignInStatus.Failure:
                     {
                         Message = "Błąd";

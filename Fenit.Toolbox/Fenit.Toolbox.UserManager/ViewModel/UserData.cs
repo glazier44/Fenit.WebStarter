@@ -33,7 +33,7 @@ namespace Fenit.Toolbox.UserManager.ViewModel
             IsIsAuthenticated = true;
         }
 
-        public bool IsIsAuthenticated { get; private set; }
+        public bool IsIsAuthenticated { get; }
         public int Id { get; set; }
         public string UserName { get; set; }
         public string Login { get; set; }

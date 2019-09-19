@@ -14,10 +14,7 @@ namespace Fenit.Toolbox.Web.Attributes
         public override bool IsValid(object value)
         {
             var val = Convert.ToString(value);
-            if (val.Length < MinimumLength || val.Length > MaximumLength)
-            {
-                base.ErrorMessage = "Błąd";
-            }
+            if (val.Length < MinimumLength || val.Length > MaximumLength) ErrorMessage = "Błąd";
             return base.IsValid(value);
         }
     }
