@@ -12,6 +12,7 @@ namespace Fenit.WebStarter.Controllers
     {
         public ActionResult Index()
         {
+            //TODOTK
             //var task = new GitVersion();
             //task.ToolPath = @"C:\Users\kwiek\AppData\Local\Atlassian\SourceTree\git_local\cmd";
             ////task.LocalPath = Path.Combine(prjRootPath, @"Source");
