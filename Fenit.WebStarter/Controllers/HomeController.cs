@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using MSBuild.Community.Tasks.Git;
+﻿using System.Web.Mvc;
 
 namespace Fenit.WebStarter.Controllers
 {
@@ -12,10 +6,6 @@ namespace Fenit.WebStarter.Controllers
     {
         public ActionResult Index()
         {
-            //var task = new GitVersion();
-            //task.ToolPath = @"C:\Users\kwiek\AppData\Local\Atlassian\SourceTree\git_local\cmd";
-            ////task.LocalPath = Path.Combine(prjRootPath, @"Source");
-            //bool result = task.Execute();
             return View();
         }
 
